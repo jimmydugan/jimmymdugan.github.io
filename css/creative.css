@@ -466,6 +466,6 @@ h1 {
   border-radius: 10px;
   font-size: 21px;
 }
-.modal-open .modal,.btn:focus{
+.modal-open .modal,.a:focus{
     outline:none!important
 }
