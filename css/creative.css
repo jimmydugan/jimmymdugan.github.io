@@ -466,3 +466,6 @@ h1 {
   border-radius: 10px;
   font-size: 21px;
 }
+*:focus {
+  outline: 0;
+}
