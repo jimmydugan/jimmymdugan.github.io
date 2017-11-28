@@ -1,3 +1,3 @@
-# jimmymdugan.github.io
+# jimmydugan.com
 
 This is my personal website
