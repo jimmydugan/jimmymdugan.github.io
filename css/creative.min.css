@@ -813,22 +813,19 @@ fieldset[disabled] .btn-success:hover {
 	background: #fff;
 	border-radius: 10px;
 	padding: 30px 20px;
-	box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px;
+	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
 	width: 100%;
 	float: left;
 }
-
 .resume-box h4 {
 	font-size: 22px;
 	margin: 0;
 	padding: 0 0 20px;
 	font-weight: 600;
 }
-
 .resume-box .resume-row {
 	margin-bottom: 30px;
 }
-
 .resume-box h5 {
 	margin: 0;
 	padding: 0 0 10px;
@@ -836,19 +833,17 @@ fieldset[disabled] .btn-success:hover {
 	text-transform: uppercase;
 	font-size: 16px;
 }
-
-.resume-box label {
+.resume-box label{
 	font-weight: normal;
 	font-style: italic;
 	font-size: 14px;
 }
-
 .resume-box p {
 	margin: 0;
 	font-size: 15px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px){
 	.resume-box {
 		margin: 15px 0;
 	}
@@ -858,7 +853,6 @@ fieldset[disabled] .btn-success:hover {
 	position: relative;
 	padding-left: 60px;
 }
-
 .resume-box-01:after {
 	height: 100%;
 	width: 4px;
@@ -881,7 +875,7 @@ fieldset[disabled] .btn-success:hover {
 	text-align: center;
 	color: #fff;
 	z-index: 1;
-	box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 0px 1px 8px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.1), 0px 0px 1px 8px rgba(0,0,0,0.05);
 	transform: rotate(45deg);
 }
 
@@ -903,24 +897,20 @@ fieldset[disabled] .btn-success:hover {
 	font-size: 17px;
 	font-weight: 700;
 }
-
 .resume-box-01 .resume-row {
 	width: 100%;
 	padding: 16px;
 	background: #fff;
-	box-shadow: 0px 0 1px 2px rgba(0, 0, 0, 0.05), 0px 0px 1px 6px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 0 1px 2px rgba(0,0,0,0.05), 0px 0px 1px 6px rgba(0,0,0,0.05);
 	margin-bottom: 30px;
 }
-
 .resume-box-01 .resume-row i {
 	left: -59px;
 }
-
 .resume-box-01 .resume-row label {
 	font-weight: 600;
 	font-size: 14px;
 }
-
 .resume-box-01 .resume-row p {
 	font-size: 13px;
 	margin: 0;
