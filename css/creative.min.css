@@ -104,3 +104,133 @@ body,html{width:100%;height:100%}body{font-family:'Open Sans', sans-serif;}hr{ma
 	font-size: 13px;
 	margin: 0;
 }
+
+.portfolio-box .filter {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.portfolio-box .filter button {
+	padding: 0;
+	border:none;
+	text-transform: uppercase;
+	color: #000;
+	background: none;
+	font-size: 16px;
+	margin: 0 10px;
+}
+.portfolio-col {
+	position: relative;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+	overflow: hidden;
+}
+.portfolio-col .hover {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.8);
+	padding: 0;
+	color: #fff;
+	-webkit-transition: all .2s ease;
+       -moz-transition: all .2s ease;
+    	 -o-transition: all .2s ease;
+    		transition: all .2s ease;
+}
+.portfolio-col .hover h4 {
+	margin: 0;
+	padding: 0 0 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.portfolio-col .hover label {
+	margin: 0;
+	padding: 0 0 15px;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 5px 20px;
+	border-radius: 30px;
+}
+.portfolio-col:hover .hover{
+	opacity: 1;
+	padding: 20px;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+
+@media (max-width: 767px){
+	.portfolio-box .filter{
+		padding-bottom: 30px;
+	}
+	.portfolio-box .filter button {
+		margin: 0 5px;
+	}
+	.portfolio-col:hover .hover{
+		padding: 10px;
+	}
+	.portfolio-col .hover h4{
+		font-size: 16px;
+	}
+}
+
+/*option 2*/
+.portfolio-box .filter-01 {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.portfolio-box .filter-01 button {
+	padding: 0;
+	border:none;
+	font-weight: 400;
+	background: #333;
+	color: #fff;
+	font-size: 14px;
+	margin: 0 10px;
+	box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.1), 0px 0px 1px 8px rgba(0,0,0,0.05);
+	padding: 6px 15px;
+	border-radius: 30px;
+}
+.portfolio-col-01 {
+	position: relative;
+	margin-bottom: 30px;
+	padding: 10px;
+	box-shadow: 0px 0 1px 2px rgba(0,0,0,0.05), 0px 0px 1px 6px rgba(0,0,0,0.05);
+	overflow: hidden;
+}
+.portfolio-col-01 .hover {
+	left: 10px;
+	background: rgba(0,0,0,0.8);
+	right: 10px;
+	position: absolute;
+	bottom: -100%;
+	color: #fff;
+	-webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+    	 -o-transition: all .4s ease;
+    		transition: all .4s ease;
+}
+.portfolio-col-01 .hover h4 {
+	margin: 0;
+	padding: 0 0 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.portfolio-col-01 .hover label {
+	margin: 0;
+	padding: 0 0 15px;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 5px 20px;
+	border-radius: 30px;
+}
+.portfolio-col-01:hover .hover{
+	padding: 20px;
+	bottom: 10px;
+}
+
