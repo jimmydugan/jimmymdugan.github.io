@@ -810,7 +810,7 @@ fieldset[disabled] .btn-success:hover {
 }
 
 .resume-box {
-	background: #fff;
+	background: #111;
 	border-radius: 10px;
 	padding: 30px 20px;
 	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
