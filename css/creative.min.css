@@ -878,6 +878,7 @@ fieldset[disabled] .btn-success:hover {
 	z-index: 1;
 	box-shadow: 0px 0px 1px 3px rgba(0,0,0,0.1), 0px 0px 1px 8px rgba(0,0,0,0.05);
 	transform: rotate(45deg);
+	background-color: #000000
 }
 
 .resume-box-01 h4 {
