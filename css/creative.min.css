@@ -118,6 +118,7 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #222
+	background-color: #000
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link,
